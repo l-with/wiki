@@ -1,0 +1,25 @@
+key: mailcow
+title: mailcow OAuth2
+description: Oauth2 authentication for the mailserver with the 'moo'
+author: Daniel Kaschl
+logo: https://mailcow.github.io/mailcow-dockerized-docs/images/logo.svg
+color: red accent-3
+website: https://mailcow.email
+isAvailable: true
+useForm: false
+props:
+  clientId:
+    type: String
+    title: Client ID
+    hint: Application Client ID
+    order: 1
+  clientSecret:
+    type: String
+    title: Client Secret
+    hint: Application Client Secret
+    order: 2
+  siteURL:
+    type: String
+    title: mailcow Site URL
+    hint: The base URL of your mailcow site (e.g. https://example.com)
+    order: 3
